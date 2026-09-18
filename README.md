@@ -1,19 +1,19 @@
-# 🎓 Campus Course & Records Manager (CCRM)
+# Campus Course & Records Manager (CCRM)
 
 CCRM is a Java SE console-based application designed to manage university academic records through an interactive Command Line Interface (CLI).
 
 The project demonstrates a wide range of Java concepts including OOP, Collections, Streams API, NIO.2, exception handling, recursion, file handling, and software design patterns. Data is stored in CSV format for easy readability, backup, and migration.
 
-## 🚀 Features
+##  Features
 
-* 👨‍🎓 **Student Management** → Add, list, update, and deactivate students.
-* 📚 **Course Management** → Add, list, update, deactivate, search, and filter courses.
-* 📝 **Enrollment & Grading** → Enroll students, enforce credit limits, record marks, and calculate GPA.
-* 📄 **Transcripts** → Generate student transcripts with letter grades.
-* 📁 **File Operations** → Import/export CSV datasets and create system backups using recursion.
-* 📊 **Reports** → GPA distribution, top students, and course enrollment reports.
+*  **Student Management** → Add, list, update, and deactivate students.
+*  **Course Management** → Add, list, update, deactivate, search, and filter courses.
+*  **Enrollment & Grading** → Enroll students, enforce credit limits, record marks, and calculate GPA.
+*  **Transcripts** → Generate student transcripts with letter grades.
+*  **File Operations** → Import/export CSV datasets and create system backups using recursion.
+*  **Reports** → GPA distribution, top students, and course enrollment reports.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 edu.ccrm
@@ -31,7 +31,7 @@ datasets/
 └── enrollments.csv
 ```
 
-## ⚡ Technical Demonstrations
+##  Technical Demonstrations
 
 ### Core Java
 
@@ -42,7 +42,7 @@ datasets/
 * Arrays and Arrays utility methods
 * String operations such as substring, split, join, equals, and compareTo
 
-### 🧩 Object-Oriented Programming
+###  Object-Oriented Programming
 
 * Encapsulation
 * Inheritance
@@ -57,7 +57,7 @@ datasets/
 * Nested and inner classes
 * Interfaces and default methods
 
-### 🔧 Lambdas & Functional Programming
+###  Lambdas & Functional Programming
 
 * Lambda expressions
 * Functional interfaces
@@ -65,13 +65,13 @@ datasets/
 * Predicate
 * Java Streams
 
-### 🏗️ Design Patterns
+###  Design Patterns
 
 * **Singleton** → AppConfig
 * **Builder** → Course.Builder
 * **Builder** → Transcript.Builder
 
-### ⚠️ Exception Handling
+###  Exception Handling
 
 * Checked and unchecked exceptions
 * Custom exceptions
@@ -80,14 +80,14 @@ datasets/
 * throw and throws
 * Assertions
 
-### ☕ Java APIs
+###  Java APIs
 
 * **NIO.2** → Path, Files, copy, move, delete
 * **Streams API** → Filtering, mapping, GPA aggregation
 * **Date/Time API** → Enrollment dates and backup timestamps
 * **Recursion** → Computing backup directory size
 
-## 📊 Datasets
+##  Datasets
 
 Sample datasets are available in the `datasets/` directory:
 
@@ -104,7 +104,7 @@ id,regNo,fullName,email,status,enrollmentDate
 2,REG1002,Jane Smith,jane@example.com,ACTIVE,2023-09-02
 ```
 
-## 📥 Running the Project
+##  Running the Project
 
 ### Prerequisites
 
@@ -138,7 +138,7 @@ java -cp bin edu.ccrm.cli.MainCLI
 java -ea -cp bin edu.ccrm.cli.MainCLI
 ```
 
-## 🖥️ CLI Demo Flow
+##  CLI Demo Flow
 
 ```text
 1. Manage Students
@@ -161,7 +161,7 @@ Typical workflow:
 7. Create system backups.
 8. Generate academic reports.
 
-## 📜 Java Platform Notes
+##  Java Platform Notes
 
 ### Evolution of Java
 
@@ -199,7 +199,7 @@ JDK
 * **JRE** → Provides the runtime environment and libraries.
 * **JVM** → Executes Java bytecode and provides platform independence.
 
-## 🖥️ Setup
+##  Setup
 
 ### Install Java on Windows
 
@@ -219,7 +219,7 @@ Install the **Extension Pack for Java** and open the project folder.
 
 You can compile using `Ctrl + Shift + B` or run `MainCLI.java` using the Run button.
 
-## 🗂️ Syllabus → Code Mapping
+##  Syllabus → Code Mapping
 
 | Concept           | Implementation                                                          |
 | ----------------- | ----------------------------------------------------------------------- |
@@ -235,15 +235,15 @@ You can compile using `Ctrl + Shift + B` or run `MainCLI.java` using the Run but
 | Recursion         | BackupService.computeDirectorySize()                                    |
 | Assertions        | Enrollment.java                                                         |
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 **Java SE • OOP • Collections • Streams API • NIO.2 • CSV • Exception Handling • Recursion • Design Patterns • Date/Time API**
 
-## 🎯 Objective
+##  Objective
 
 CCRM combines a practical academic record management system with a comprehensive demonstration of Java programming concepts, from fundamental language features to advanced APIs and design patterns.
 
-## 📌 Future Enhancements
+##  Future Enhancements
 
 * Database integration
 * GUI/Web interface
@@ -253,6 +253,6 @@ CCRM combines a practical academic record management system with a comprehensive
 * Automated testing
 * PDF transcript generation
 
-## 📄 License
+##  License
 
 This project is created for educational and academic purposes.
